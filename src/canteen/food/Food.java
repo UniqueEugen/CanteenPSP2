@@ -1,54 +1,60 @@
-package food;
+package canteen.food;
 
-public abstract class Food implements Pr {
+import canteen.PriceInterface;
+
+public abstract class Food implements PriceInterface {
     protected String fName;//Название еды
     protected boolean hot;//Горячее/холодное
-    protected int fCost;//Себестоимость еды
-    protected int fPrice;//Цена еды
+    protected int quantity; //количество порций
+    protected float fCost;//Себестоимость еды
+    protected float fPrice;//Цена еды
+
     public Food()//конструктор класса
-    { fName=new String();
-        hot = true;
-        fCost=0;
-        fPrice=0;}
-    abstract protected void generateFoodName();//абстрактная функция
-    public void setHot(boolean hot)//установка температуры еды
     {
-        this.hot=hot;
-    }
-    protected void setPrice()
-    {
-        fPrice=countPrice();
-    }
-    public void setPrice(int price)
-    {
-        fPrice=price;
+        this.fName = new String();
+        this.hot = true;
+        fCost = 0;
+        fPrice = 0;
     }
 
-    public void setCost(int cost)
+    public void setHot(boolean hot)//установка температуры еды
     {
-        fCost=cost;
+        this.hot = hot;
+    }
+
+    protected void setPrice() {
+        fPrice = countPrice();
+    }
+
+    public void setPrice(int price) {
+        fPrice = price;
+    }
+
+    public void setCost(int cost) {
+        fCost = cost;
         setPrice();
     }
-    public int getPrice()
-    {
+
+    public float getPrice() {
         return fPrice;
     }
-    public int getCost()
-    {
+
+    public float getCost() {
         return fCost;
     }
 
-    public int countPrice()//Подсчёт отпускной цены на основе себестоимости
+    public float countPrice()//Подсчёт отпускной цены на основе себестоимости
     {
-        int price;
-        price=(int) ((fCost*1.2)*1.2);
+        float price;
+        price = (float) (Math.round(((fCost * 1.2) * 1.2) * 100.0) / 100.0);
         return price;
     }
 
-    public String toString()
-    {
-        String str=new String();
-        str="Блюдо "+fName + (hot? "горячее":"холодное")+" себестоимость:"+fCost+"BYN. Цена:"+fPrice+"BYN";
+    public String toString() {
+        String str = new String();
+        str = "Блюдо " + fName + (hot ? ", горячее;" : ", холодное;") + " Cебестоимость: " + fCost + "BYN. Цена: " + fPrice + "BYN ";
         return str;
     }
+
+    abstract protected void generateFoodName();//абстрактная функция
 }

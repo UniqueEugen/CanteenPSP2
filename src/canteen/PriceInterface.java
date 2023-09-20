@@ -1,3 +1,5 @@
+package canteen;
+
 public interface PriceInterface {
-    public int countPrice();
+    public float countPrice();
 }

@@ -1,2 +1,5 @@
-package canteen.foodList;public class FoodList {
+package canteen.foodList;
+
+public class FoodList {
+
 }

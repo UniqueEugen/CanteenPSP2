@@ -1,21 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cdd8326-cf07-4650-8684-cdc63311be02" name="Changes" comment="" />
+    <list default="true" id="6cdd8326-cf07-4650-8684-cdc63311be02" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/PriceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/PriceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/Scan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/Scan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/food/dish/FirstDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/food/dish/FirstDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/food/dish/MainDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/food/dish/MainDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/food/dish/SecondDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/food/dish/SecondDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/food/drink/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/food/drink/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/food/drink/OwnProdDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/food/drink/OwnProdDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/food/drink/TradableDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/food/drink/TradableDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/foodList/FoodList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/foodList/FoodList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canteen/order/OrderCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canteen/order/OrderCreate.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="MyCode1ver" />
+                    <option name="lastUsedInstant" value="1695231378" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1695231377" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2Va8btl84IWG5FsZABzNuY20qUU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,9 +89,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "E:/ПСП/CanteenPSP2/src/Main.java"
+    "git-widget-placeholder": "MyCode1ver",
+    "last_opened_file_path": "E:/ПСП/CanteenPSP2",
+    "onboarding.tips.debug.path": "E:/ПСП/CanteenPSP2/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -39,18 +105,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695062905908</updated>
+      <workItem from="1695063969358" duration="54000" />
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
